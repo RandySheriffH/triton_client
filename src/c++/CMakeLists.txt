@@ -54,8 +54,8 @@ include(FetchContent)
 
 FetchContent_Declare(
   repo-common
-  GIT_REPOSITORY https://github.com/triton-inference-server/common.git
-  GIT_TAG ${TRITON_COMMON_REPO_TAG}
+  GIT_REPOSITORY https://github.com/RandySheriffH/triton_common.git
+  GIT_TAG buildfree
   GIT_SHALLOW ON
 )
 
