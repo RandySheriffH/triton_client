@@ -71,8 +71,8 @@ if(TRITON_ENABLE_CC_GRPC OR TRITON_ENABLE_PERF_ANALYZER)
   if(TRITON_ENABLE_PERF_ANALYZER)
     FetchContent_Declare(
       repo-core
-      GIT_REPOSITORY https://github.com/triton-inference-server/core.git
-      GIT_TAG ${TRITON_CORE_REPO_TAG}
+      GIT_REPOSITORY https://github.com/RandySheriffH/triton_core.git
+      GIT_TAG buildfree
       GIT_SHALLOW ON 
     )
     FetchContent_MakeAvailable(repo-core)
